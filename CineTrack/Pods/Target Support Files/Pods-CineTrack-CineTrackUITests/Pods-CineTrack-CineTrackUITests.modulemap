@@ -1,6 +1,0 @@
-framework module Pods_CineTrack_CineTrackUITests {
-  umbrella header "Pods-CineTrack-CineTrackUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
