@@ -3,8 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		0121A74AAE2FA56D73C01639 /* Pods_CineTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9F6AA34500EC5219644664 /* Pods_CineTrack.framework */; };
+		5612E6F015C8EC887FE72AAF /* Pods_CineTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2310B36FBDE8750A2EB87219 /* Pods_CineTrackTests.framework */; };
+		61ACE6747346E58990FB56AE /* Pods_CineTrack_CineTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6C051C7C051E45A905056F /* Pods_CineTrack_CineTrackUITests.framework */; };
+		65020E1D2CEE9652009D148F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65020E1C2CEE9652009D148F /* AppDelegate.swift */; };
+		65020E222CEE9950009D148F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65020E212CEE9950009D148F /* LoginView.swift */; };
+		651635C92CE961420003AE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651635C32CE961420003AE27 /* Preview Assets.xcassets */; };
+		651635CA2CE961420003AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651635C52CE961420003AE27 /* Assets.xcassets */; };
+		651635CB2CE961420003AE27 /* CineTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635C62CE961420003AE27 /* CineTrackApp.swift */; };
+		651635CC2CE961420003AE27 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635C72CE961420003AE27 /* StartView.swift */; };
+		651635CF2CE961B20003AE27 /* CineTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635CD2CE961B20003AE27 /* CineTrackTests.swift */; };
+		651635D32CE961B60003AE27 /* CineTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635D02CE961B60003AE27 /* CineTrackUITests.swift */; };
+		651635D42CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635D12CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift */; };
+		6581162F2CEAAA5100066DE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6581162E2CEAAA5000066DE4 /* GoogleService-Info.plist */; };
+		65A3CF052CEEF85700D8A77A /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF042CEEF85700D8A77A /* Extension+View.swift */; };
+		65A3CF0A2CEEFE3F00D8A77A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF092CEEFE3F00D8A77A /* CustomButton.swift */; };
+		65A3CF0C2CEF057F00D8A77A /* LoginAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF0B2CEF057F00D8A77A /* LoginAnimationView.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		65C9F0702CE95EEC00805858 /* PBXContainerItemProxy */ = {
@@ -24,34 +43,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029E61DD54C4B11A5BB9820E /* Pods-CineTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-CineTrackTests/Pods-CineTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2310B36FBDE8750A2EB87219 /* Pods_CineTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E40A45D4F6BE99C8395333D /* Pods-CineTrack-CineTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack-CineTrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F6C051C7C051E45A905056F /* Pods_CineTrack_CineTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrack_CineTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F8D33DACDB63638A3CEE6D /* Pods-CineTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrackTests.release.xcconfig"; path = "Target Support Files/Pods-CineTrackTests/Pods-CineTrackTests.release.xcconfig"; sourceTree = "<group>"; };
+		49F90AD22226A974B7102261 /* Pods-CineTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack.debug.xcconfig"; path = "Target Support Files/Pods-CineTrack/Pods-CineTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		64896450E58F2E1A3913A709 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack-CineTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65020E1C2CEE9652009D148F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65020E212CEE9950009D148F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		651635C32CE961420003AE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		651635C52CE961420003AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		651635C62CE961420003AE27 /* CineTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackApp.swift; sourceTree = "<group>"; };
+		651635C72CE961420003AE27 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		651635CD2CE961B20003AE27 /* CineTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackTests.swift; sourceTree = "<group>"; };
+		651635D02CE961B60003AE27 /* CineTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackUITests.swift; sourceTree = "<group>"; };
+		651635D12CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6581162E2CEAAA5000066DE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65A3CF042CEEF85700D8A77A /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		65A3CF092CEEFE3F00D8A77A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		65A3CF0B2CEF057F00D8A77A /* LoginAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationView.swift; sourceTree = "<group>"; };
 		65C9F05F2CE95EE900805858 /* CineTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9F6AA34500EC5219644664 /* Pods_CineTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B399525F2CCE35589B6A2E04 /* Pods-CineTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack.release.xcconfig"; path = "Target Support Files/Pods-CineTrack/Pods-CineTrack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		65C9F0612CE95EE900805858 /* CineTrack */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CineTrack;
-			sourceTree = "<group>";
-		};
-		65C9F0722CE95EEC00805858 /* CineTrackTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CineTrackTests;
-			sourceTree = "<group>";
-		};
-		65C9F07C2CE95EED00805858 /* CineTrackUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CineTrackUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		65C9F05C2CE95EE900805858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0121A74AAE2FA56D73C01639 /* Pods_CineTrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5612E6F015C8EC887FE72AAF /* Pods_CineTrackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +91,128 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61ACE6747346E58990FB56AE /* Pods_CineTrack_CineTrackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65020E182CEE95D3009D148F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				65020E202CEE9936009D148F /* Model */,
+				65020E1E2CEE9916009D148F /* View */,
+				65020E1F2CEE9922009D148F /* ViewModel */,
+				65020E192CEE95DE009D148F /* Firebase */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		65020E192CEE95DE009D148F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				6581162E2CEAAA5000066DE4 /* GoogleService-Info.plist */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		65020E1E2CEE9916009D148F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65020E212CEE9950009D148F /* LoginView.swift */,
+				65A3CF0B2CEF057F00D8A77A /* LoginAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65020E1F2CEE9922009D148F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		65020E202CEE9936009D148F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		651635C42CE961420003AE27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				651635C32CE961420003AE27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		651635C82CE961420003AE27 /* CineTrack */ = {
+			isa = PBXGroup;
+			children = (
+				65A3CF082CEEFE2C00D8A77A /* UI */,
+				65A3CF012CEEF82100D8A77A /* Extension */,
+				65020E182CEE95D3009D148F /* Login */,
+				651635C42CE961420003AE27 /* Preview Content */,
+				651635C52CE961420003AE27 /* Assets.xcassets */,
+				651635C62CE961420003AE27 /* CineTrackApp.swift */,
+				651635C72CE961420003AE27 /* StartView.swift */,
+				65020E1C2CEE9652009D148F /* AppDelegate.swift */,
+			);
+			path = CineTrack;
+			sourceTree = "<group>";
+		};
+		651635CE2CE961B20003AE27 /* CineTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				651635CD2CE961B20003AE27 /* CineTrackTests.swift */,
+			);
+			path = CineTrackTests;
+			sourceTree = "<group>";
+		};
+		651635D22CE961B60003AE27 /* CineTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				651635D02CE961B60003AE27 /* CineTrackUITests.swift */,
+				651635D12CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift */,
+			);
+			path = CineTrackUITests;
+			sourceTree = "<group>";
+		};
+		65A3CF012CEEF82100D8A77A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65A3CF042CEEF85700D8A77A /* Extension+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		65A3CF062CEEFD6400D8A77A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				65A3CF092CEEFE3F00D8A77A /* CustomButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		65A3CF082CEEFE2C00D8A77A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				65A3CF062CEEFD6400D8A77A /* Button */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		65C9F0562CE95EE900805858 = {
 			isa = PBXGroup;
 			children = (
-				65C9F0612CE95EE900805858 /* CineTrack */,
-				65C9F0722CE95EEC00805858 /* CineTrackTests */,
-				65C9F07C2CE95EED00805858 /* CineTrackUITests */,
+				651635C82CE961420003AE27 /* CineTrack */,
+				651635CE2CE961B20003AE27 /* CineTrackTests */,
+				651635D22CE961B60003AE27 /* CineTrackUITests */,
 				65C9F0602CE95EE900805858 /* Products */,
+				8AADA232C64D694B8039611A /* Pods */,
+				B99A9399F07E6F2AA012A691 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +226,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8AADA232C64D694B8039611A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49F90AD22226A974B7102261 /* Pods-CineTrack.debug.xcconfig */,
+				B399525F2CCE35589B6A2E04 /* Pods-CineTrack.release.xcconfig */,
+				3E40A45D4F6BE99C8395333D /* Pods-CineTrack-CineTrackUITests.debug.xcconfig */,
+				64896450E58F2E1A3913A709 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */,
+				029E61DD54C4B11A5BB9820E /* Pods-CineTrackTests.debug.xcconfig */,
+				40F8D33DACDB63638A3CEE6D /* Pods-CineTrackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B99A9399F07E6F2AA012A691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F6AA34500EC5219644664 /* Pods_CineTrack.framework */,
+				3F6C051C7C051E45A905056F /* Pods_CineTrack_CineTrackUITests.framework */,
+				2310B36FBDE8750A2EB87219 /* Pods_CineTrackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65C9F0832CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrack" */;
 			buildPhases = (
+				ADF61182AAFB5CD7635672C0 /* [CP] Check Pods Manifest.lock */,
 				65C9F05B2CE95EE900805858 /* Sources */,
 				65C9F05C2CE95EE900805858 /* Frameworks */,
 				65C9F05D2CE95EE900805858 /* Resources */,
@@ -107,12 +265,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				65C9F0612CE95EE900805858 /* CineTrack */,
-			);
 			name = CineTrack;
-			packageProductDependencies = (
-			);
 			productName = CineTrack;
 			productReference = 65C9F05F2CE95EE900805858 /* CineTrack.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65C9F0862CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrackTests" */;
 			buildPhases = (
+				7822B59852F8E5E6B41C6254 /* [CP] Check Pods Manifest.lock */,
 				65C9F06B2CE95EEC00805858 /* Sources */,
 				65C9F06C2CE95EEC00805858 /* Frameworks */,
 				65C9F06D2CE95EEC00805858 /* Resources */,
@@ -130,12 +284,7 @@
 			dependencies = (
 				65C9F0712CE95EEC00805858 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				65C9F0722CE95EEC00805858 /* CineTrackTests */,
-			);
 			name = CineTrackTests;
-			packageProductDependencies = (
-			);
 			productName = CineTrackTests;
 			productReference = 65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65C9F0892CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrackUITests" */;
 			buildPhases = (
+				D87E9909710294BF0B879249 /* [CP] Check Pods Manifest.lock */,
 				65C9F0752CE95EED00805858 /* Sources */,
 				65C9F0762CE95EED00805858 /* Frameworks */,
 				65C9F0772CE95EED00805858 /* Resources */,
@@ -153,12 +303,7 @@
 			dependencies = (
 				65C9F07B2CE95EED00805858 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				65C9F07C2CE95EED00805858 /* CineTrackUITests */,
-			);
 			name = CineTrackUITests;
-			packageProductDependencies = (
-			);
 			productName = CineTrackUITests;
 			productReference = 65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -187,6 +332,7 @@
 				};
 			};
 			buildConfigurationList = 65C9F05A2CE95EE900805858 /* Build configuration list for PBXProject "CineTrack" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +341,6 @@
 			);
 			mainGroup = 65C9F0562CE95EE900805858;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 65C9F0602CE95EE900805858 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,6 +357,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651635C92CE961420003AE27 /* Preview Assets.xcassets in Resources */,
+				651635CA2CE961420003AE27 /* Assets.xcassets in Resources */,
+				6581162F2CEAAA5100066DE4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +379,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7822B59852F8E5E6B41C6254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CineTrackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF61182AAFB5CD7635672C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CineTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87E9909710294BF0B879249 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CineTrack-CineTrackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65C9F05B2CE95EE900805858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65020E1D2CEE9652009D148F /* AppDelegate.swift in Sources */,
+				651635CB2CE961420003AE27 /* CineTrackApp.swift in Sources */,
+				65A3CF0A2CEEFE3F00D8A77A /* CustomButton.swift in Sources */,
+				65A3CF0C2CEF057F00D8A77A /* LoginAnimationView.swift in Sources */,
+				65A3CF052CEEF85700D8A77A /* Extension+View.swift in Sources */,
+				65020E222CEE9950009D148F /* LoginView.swift in Sources */,
+				651635CC2CE961420003AE27 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651635CF2CE961B20003AE27 /* CineTrackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +475,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651635D32CE961B60003AE27 /* CineTrackUITests.swift in Sources */,
+				651635D42CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +617,7 @@
 		};
 		65C9F0842CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F90AD22226A974B7102261 /* Pods-CineTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,12 +626,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CineTrack/Preview Content\"";
 				DEVELOPMENT_TEAM = 626FRPWPF5;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,6 +649,7 @@
 		};
 		65C9F0852CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B399525F2CCE35589B6A2E04 /* Pods-CineTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -427,12 +658,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CineTrack/Preview Content\"";
 				DEVELOPMENT_TEAM = 626FRPWPF5;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +681,13 @@
 		};
 		65C9F0872CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029E61DD54C4B11A5BB9820E /* Pods-CineTrackTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 626FRPWPF5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
@@ -467,11 +702,13 @@
 		};
 		65C9F0882CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F8D33DACDB63638A3CEE6D /* Pods-CineTrackTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 626FRPWPF5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
@@ -486,10 +723,12 @@
 		};
 		65C9F08A2CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E40A45D4F6BE99C8395333D /* Pods-CineTrack-CineTrackUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 626FRPWPF5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.noosreg.CineTrackUITests;
@@ -503,10 +742,12 @@
 		};
 		65C9F08B2CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64896450E58F2E1A3913A709 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 626FRPWPF5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.noosreg.CineTrackUITests;
