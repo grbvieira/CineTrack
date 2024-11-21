@@ -2,7 +2,7 @@
 //  CineTrackUITestsLaunchTests.swift
 //  CineTrackUITests
 //
-//  Created by Gerson Vieira on 14/11/24.
+//  Created by Gerson Vieira on 16/11/24.
 //
 
 import XCTest

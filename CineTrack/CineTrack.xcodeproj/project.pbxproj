@@ -3,262 +3,226 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3F1658CD2D0FA6069C0537FF /* Pods_CineTrack_CineTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD77838A3A8A7BDD00588986 /* Pods_CineTrack_CineTrackUITests.framework */; };
-		8CFA770DD30BAF24BAE6BE0C /* Pods_CineTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916E83907F4642652FA3DECF /* Pods_CineTrack.framework */; };
-		B045AF3624B6D40F7D1B310D /* Pods_CineTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94153DC847AAAB258F3FCBCF /* Pods_CineTrackTests.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		654916A62CE5BC2A0002EC8A /* PBXContainerItemProxy */ = {
+		65C9F0702CE95EEC00805858 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6549168D2CE5BC240002EC8A /* Project object */;
+			containerPortal = 65C9F0572CE95EE900805858 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 654916942CE5BC250002EC8A;
+			remoteGlobalIDString = 65C9F05E2CE95EE900805858;
 			remoteInfo = CineTrack;
 		};
-		654916B02CE5BC2A0002EC8A /* PBXContainerItemProxy */ = {
+		65C9F07A2CE95EED00805858 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6549168D2CE5BC240002EC8A /* Project object */;
+			containerPortal = 65C9F0572CE95EE900805858 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 654916942CE5BC250002EC8A;
+			remoteGlobalIDString = 65C9F05E2CE95EE900805858;
 			remoteInfo = CineTrack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B71FACFB78B879C801D4976 /* Pods-CineTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrackTests.release.xcconfig"; path = "Target Support Files/Pods-CineTrackTests/Pods-CineTrackTests.release.xcconfig"; sourceTree = "<group>"; };
-		617B424AAF034C5CF7078F15 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack-CineTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
-		654916952CE5BC250002EC8A /* CineTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		654916A52CE5BC2A0002EC8A /* CineTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		654916AF2CE5BC2A0002EC8A /* CineTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DE816C85F69D076B36D2011 /* Pods-CineTrack-CineTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack-CineTrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E78D33EDE0BA85CC6906E57 /* Pods-CineTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack.release.xcconfig"; path = "Target Support Files/Pods-CineTrack/Pods-CineTrack.release.xcconfig"; sourceTree = "<group>"; };
-		916E83907F4642652FA3DECF /* Pods_CineTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94153DC847AAAB258F3FCBCF /* Pods_CineTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD77838A3A8A7BDD00588986 /* Pods_CineTrack_CineTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrack_CineTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3342AEECE121951763F4324 /* Pods-CineTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-CineTrackTests/Pods-CineTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ECDE74BCE28662CE3BBFBD7C /* Pods-CineTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack.debug.xcconfig"; path = "Target Support Files/Pods-CineTrack/Pods-CineTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		65C9F05F2CE95EE900805858 /* CineTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		65C9F0612CE95EE900805858 /* CineTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CineTrack;
+			sourceTree = "<group>";
+		};
+		65C9F0722CE95EEC00805858 /* CineTrackTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CineTrackTests;
+			sourceTree = "<group>";
+		};
+		65C9F07C2CE95EED00805858 /* CineTrackUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CineTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		654916922CE5BC250002EC8A /* Frameworks */ = {
+		65C9F05C2CE95EE900805858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFA770DD30BAF24BAE6BE0C /* Pods_CineTrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654916A22CE5BC2A0002EC8A /* Frameworks */ = {
+		65C9F06C2CE95EEC00805858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B045AF3624B6D40F7D1B310D /* Pods_CineTrackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654916AC2CE5BC2A0002EC8A /* Frameworks */ = {
+		65C9F0762CE95EED00805858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1658CD2D0FA6069C0537FF /* Pods_CineTrack_CineTrackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E6D7944E4A73E0CADC016A1 /* Frameworks */ = {
+		65C9F0562CE95EE900805858 = {
 			isa = PBXGroup;
 			children = (
-				916E83907F4642652FA3DECF /* Pods_CineTrack.framework */,
-				BD77838A3A8A7BDD00588986 /* Pods_CineTrack_CineTrackUITests.framework */,
-				94153DC847AAAB258F3FCBCF /* Pods_CineTrackTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6549168C2CE5BC240002EC8A = {
-			isa = PBXGroup;
-			children = (
-				654916972CE5BC250002EC8A /* CineTrack */,
-				654916A82CE5BC2A0002EC8A /* CineTrackTests */,
-				654916B22CE5BC2A0002EC8A /* CineTrackUITests */,
-				654916962CE5BC250002EC8A /* Products */,
-				CC21FFC4153216196994A2E5 /* Pods */,
-				3E6D7944E4A73E0CADC016A1 /* Frameworks */,
+				65C9F0612CE95EE900805858 /* CineTrack */,
+				65C9F0722CE95EEC00805858 /* CineTrackTests */,
+				65C9F07C2CE95EED00805858 /* CineTrackUITests */,
+				65C9F0602CE95EE900805858 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		654916962CE5BC250002EC8A /* Products */ = {
+		65C9F0602CE95EE900805858 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				654916952CE5BC250002EC8A /* CineTrack.app */,
-				654916A52CE5BC2A0002EC8A /* CineTrackTests.xctest */,
-				654916AF2CE5BC2A0002EC8A /* CineTrackUITests.xctest */,
+				65C9F05F2CE95EE900805858 /* CineTrack.app */,
+				65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */,
+				65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		654916972CE5BC250002EC8A /* CineTrack */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CineTrack;
-			sourceTree = "<group>";
-		};
-		654916A82CE5BC2A0002EC8A /* CineTrackTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CineTrackTests;
-			sourceTree = "<group>";
-		};
-		654916B22CE5BC2A0002EC8A /* CineTrackUITests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CineTrackUITests;
-			sourceTree = "<group>";
-		};
-		CC21FFC4153216196994A2E5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ECDE74BCE28662CE3BBFBD7C /* Pods-CineTrack.debug.xcconfig */,
-				7E78D33EDE0BA85CC6906E57 /* Pods-CineTrack.release.xcconfig */,
-				7DE816C85F69D076B36D2011 /* Pods-CineTrack-CineTrackUITests.debug.xcconfig */,
-				617B424AAF034C5CF7078F15 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */,
-				D3342AEECE121951763F4324 /* Pods-CineTrackTests.debug.xcconfig */,
-				0B71FACFB78B879C801D4976 /* Pods-CineTrackTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		654916942CE5BC250002EC8A /* CineTrack */ = {
+		65C9F05E2CE95EE900805858 /* CineTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 654916B92CE5BC2B0002EC8A /* Build configuration list for PBXNativeTarget "CineTrack" */;
+			buildConfigurationList = 65C9F0832CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrack" */;
 			buildPhases = (
-				462BA5192406DD892D22E001 /* [CP] Check Pods Manifest.lock */,
-				654916912CE5BC250002EC8A /* Sources */,
-				654916922CE5BC250002EC8A /* Frameworks */,
-				654916932CE5BC250002EC8A /* Resources */,
-				7E38466610E38EE824867D66 /* [CP] Embed Pods Frameworks */,
+				65C9F05B2CE95EE900805858 /* Sources */,
+				65C9F05C2CE95EE900805858 /* Frameworks */,
+				65C9F05D2CE95EE900805858 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				65C9F0612CE95EE900805858 /* CineTrack */,
 			);
 			name = CineTrack;
+			packageProductDependencies = (
+			);
 			productName = CineTrack;
-			productReference = 654916952CE5BC250002EC8A /* CineTrack.app */;
+			productReference = 65C9F05F2CE95EE900805858 /* CineTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		654916A42CE5BC2A0002EC8A /* CineTrackTests */ = {
+		65C9F06E2CE95EEC00805858 /* CineTrackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 654916BC2CE5BC2B0002EC8A /* Build configuration list for PBXNativeTarget "CineTrackTests" */;
+			buildConfigurationList = 65C9F0862CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrackTests" */;
 			buildPhases = (
-				03402526A4D659ECB58417BF /* [CP] Check Pods Manifest.lock */,
-				654916A12CE5BC2A0002EC8A /* Sources */,
-				654916A22CE5BC2A0002EC8A /* Frameworks */,
-				654916A32CE5BC2A0002EC8A /* Resources */,
+				65C9F06B2CE95EEC00805858 /* Sources */,
+				65C9F06C2CE95EEC00805858 /* Frameworks */,
+				65C9F06D2CE95EEC00805858 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				654916A72CE5BC2A0002EC8A /* PBXTargetDependency */,
+				65C9F0712CE95EEC00805858 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65C9F0722CE95EEC00805858 /* CineTrackTests */,
 			);
 			name = CineTrackTests;
+			packageProductDependencies = (
+			);
 			productName = CineTrackTests;
-			productReference = 654916A52CE5BC2A0002EC8A /* CineTrackTests.xctest */;
+			productReference = 65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		654916AE2CE5BC2A0002EC8A /* CineTrackUITests */ = {
+		65C9F0782CE95EED00805858 /* CineTrackUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 654916BF2CE5BC2B0002EC8A /* Build configuration list for PBXNativeTarget "CineTrackUITests" */;
+			buildConfigurationList = 65C9F0892CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrackUITests" */;
 			buildPhases = (
-				B3E4BFFBE4354FF3ED5442B2 /* [CP] Check Pods Manifest.lock */,
-				654916AB2CE5BC2A0002EC8A /* Sources */,
-				654916AC2CE5BC2A0002EC8A /* Frameworks */,
-				654916AD2CE5BC2A0002EC8A /* Resources */,
-				F5A49DE91FBFF3B1415426AA /* [CP] Embed Pods Frameworks */,
+				65C9F0752CE95EED00805858 /* Sources */,
+				65C9F0762CE95EED00805858 /* Frameworks */,
+				65C9F0772CE95EED00805858 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				654916B12CE5BC2A0002EC8A /* PBXTargetDependency */,
+				65C9F07B2CE95EED00805858 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65C9F07C2CE95EED00805858 /* CineTrackUITests */,
 			);
 			name = CineTrackUITests;
+			packageProductDependencies = (
+			);
 			productName = CineTrackUITests;
-			productReference = 654916AF2CE5BC2A0002EC8A /* CineTrackUITests.xctest */;
+			productReference = 65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6549168D2CE5BC240002EC8A /* Project object */ = {
+		65C9F0572CE95EE900805858 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					654916942CE5BC250002EC8A = {
+					65C9F05E2CE95EE900805858 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					654916A42CE5BC2A0002EC8A = {
+					65C9F06E2CE95EEC00805858 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 654916942CE5BC250002EC8A;
+						TestTargetID = 65C9F05E2CE95EE900805858;
 					};
-					654916AE2CE5BC2A0002EC8A = {
+					65C9F0782CE95EED00805858 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 654916942CE5BC250002EC8A;
+						TestTargetID = 65C9F05E2CE95EE900805858;
 					};
 				};
 			};
-			buildConfigurationList = 654916902CE5BC250002EC8A /* Build configuration list for PBXProject "CineTrack" */;
+			buildConfigurationList = 65C9F05A2CE95EE900805858 /* Build configuration list for PBXProject "CineTrack" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 6549168C2CE5BC240002EC8A;
+			mainGroup = 65C9F0562CE95EE900805858;
 			minimizedProjectReferenceProxies = 1;
-			productRefGroup = 654916962CE5BC250002EC8A /* Products */;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 65C9F0602CE95EE900805858 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				654916942CE5BC250002EC8A /* CineTrack */,
-				654916A42CE5BC2A0002EC8A /* CineTrackTests */,
-				654916AE2CE5BC2A0002EC8A /* CineTrackUITests */,
+				65C9F05E2CE95EE900805858 /* CineTrack */,
+				65C9F06E2CE95EEC00805858 /* CineTrackTests */,
+				65C9F0782CE95EED00805858 /* CineTrackUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		654916932CE5BC250002EC8A /* Resources */ = {
+		65C9F05D2CE95EE900805858 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654916A32CE5BC2A0002EC8A /* Resources */ = {
+		65C9F06D2CE95EEC00805858 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654916AD2CE5BC2A0002EC8A /* Resources */ = {
+		65C9F0772CE95EED00805858 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,125 +231,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		03402526A4D659ECB58417BF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CineTrackTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		462BA5192406DD892D22E001 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CineTrack-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E38466610E38EE824867D66 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CineTrack/Pods-CineTrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CineTrack/Pods-CineTrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CineTrack/Pods-CineTrack-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3E4BFFBE4354FF3ED5442B2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CineTrack-CineTrackUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5A49DE91FBFF3B1415426AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		654916912CE5BC250002EC8A /* Sources */ = {
+		65C9F05B2CE95EE900805858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654916A12CE5BC2A0002EC8A /* Sources */ = {
+		65C9F06B2CE95EEC00805858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654916AB2CE5BC2A0002EC8A /* Sources */ = {
+		65C9F0752CE95EED00805858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		654916A72CE5BC2A0002EC8A /* PBXTargetDependency */ = {
+		65C9F0712CE95EEC00805858 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 654916942CE5BC250002EC8A /* CineTrack */;
-			targetProxy = 654916A62CE5BC2A0002EC8A /* PBXContainerItemProxy */;
+			target = 65C9F05E2CE95EE900805858 /* CineTrack */;
+			targetProxy = 65C9F0702CE95EEC00805858 /* PBXContainerItemProxy */;
 		};
-		654916B12CE5BC2A0002EC8A /* PBXTargetDependency */ = {
+		65C9F07B2CE95EED00805858 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 654916942CE5BC250002EC8A /* CineTrack */;
-			targetProxy = 654916B02CE5BC2A0002EC8A /* PBXContainerItemProxy */;
+			target = 65C9F05E2CE95EE900805858 /* CineTrack */;
+			targetProxy = 65C9F07A2CE95EED00805858 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		654916B72CE5BC2B0002EC8A /* Debug */ = {
+		65C9F0812CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		654916B82CE5BC2B0002EC8A /* Release */ = {
+		65C9F0822CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -527,9 +388,8 @@
 			};
 			name = Release;
 		};
-		654916BA2CE5BC2B0002EC8A /* Debug */ = {
+		65C9F0842CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECDE74BCE28662CE3BBFBD7C /* Pods-CineTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,9 +417,8 @@
 			};
 			name = Debug;
 		};
-		654916BB2CE5BC2B0002EC8A /* Release */ = {
+		65C9F0852CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E78D33EDE0BA85CC6906E57 /* Pods-CineTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -587,9 +446,8 @@
 			};
 			name = Release;
 		};
-		654916BD2CE5BC2B0002EC8A /* Debug */ = {
+		65C9F0872CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3342AEECE121951763F4324 /* Pods-CineTrackTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -607,9 +465,8 @@
 			};
 			name = Debug;
 		};
-		654916BE2CE5BC2B0002EC8A /* Release */ = {
+		65C9F0882CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B71FACFB78B879C801D4976 /* Pods-CineTrackTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -627,9 +484,8 @@
 			};
 			name = Release;
 		};
-		654916C02CE5BC2B0002EC8A /* Debug */ = {
+		65C9F08A2CE95EED00805858 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DE816C85F69D076B36D2011 /* Pods-CineTrack-CineTrackUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -645,9 +501,8 @@
 			};
 			name = Debug;
 		};
-		654916C12CE5BC2B0002EC8A /* Release */ = {
+		65C9F08B2CE95EED00805858 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 617B424AAF034C5CF7078F15 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -666,43 +521,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		654916902CE5BC250002EC8A /* Build configuration list for PBXProject "CineTrack" */ = {
+		65C9F05A2CE95EE900805858 /* Build configuration list for PBXProject "CineTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654916B72CE5BC2B0002EC8A /* Debug */,
-				654916B82CE5BC2B0002EC8A /* Release */,
+				65C9F0812CE95EED00805858 /* Debug */,
+				65C9F0822CE95EED00805858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		654916B92CE5BC2B0002EC8A /* Build configuration list for PBXNativeTarget "CineTrack" */ = {
+		65C9F0832CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654916BA2CE5BC2B0002EC8A /* Debug */,
-				654916BB2CE5BC2B0002EC8A /* Release */,
+				65C9F0842CE95EED00805858 /* Debug */,
+				65C9F0852CE95EED00805858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		654916BC2CE5BC2B0002EC8A /* Build configuration list for PBXNativeTarget "CineTrackTests" */ = {
+		65C9F0862CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654916BD2CE5BC2B0002EC8A /* Debug */,
-				654916BE2CE5BC2B0002EC8A /* Release */,
+				65C9F0872CE95EED00805858 /* Debug */,
+				65C9F0882CE95EED00805858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		654916BF2CE5BC2B0002EC8A /* Build configuration list for PBXNativeTarget "CineTrackUITests" */ = {
+		65C9F0892CE95EED00805858 /* Build configuration list for PBXNativeTarget "CineTrackUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654916C02CE5BC2B0002EC8A /* Debug */,
-				654916C12CE5BC2B0002EC8A /* Release */,
+				65C9F08A2CE95EED00805858 /* Debug */,
+				65C9F08B2CE95EED00805858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6549168D2CE5BC240002EC8A /* Project object */;
+	rootObject = 65C9F0572CE95EE900805858 /* Project object */;
 }
