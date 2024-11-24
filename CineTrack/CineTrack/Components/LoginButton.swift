@@ -8,21 +8,30 @@
 import SwiftUI
 
 struct LoginButton: View {
-    let title: String
-    let image: String
-    let backgroundColor: Color
+    let text: String
+    var secondText: String = ""
+    let image: String?
+    var backgroundColor: Color = .clear
+    var textColor: Color = .black
     let action: () -> Void
     
     var body: some View {
         VStack {
             Button(action: action) {
                 HStack {
-                    Text(title)
+                    Text(text)
                         .fontWeight(.semibold)
-                    Image(systemName: image)
+                        .foregroundStyle(textColor)
+                    Text(secondText)
+                        .fontWeight(.bold)
+                        .foregroundStyle(textColor)
+                    if let image = image  {
+                        Image(systemName: image)
+                            .foregroundStyle(textColor)
+                    }
                 }
                 .foregroundColor(.white)
-                .frame(width: UIScreen.main.bounds.width - 32, height: 40)
+                .frame(width: UIScreen.main.bounds.width - 32, height: 48)
             }
             .background(backgroundColor)
             .cornerRadius(10)
@@ -33,8 +42,13 @@ struct LoginButton: View {
 
 struct LoginButton_Preview: PreviewProvider {
     static var previews: some View {
-        LoginButton(title: "Sign",
+       /* LoginButton(title: "Sign",
                     image: "arrow.right",
-                    backgroundColor: .white) { }
+                    backgroundColor: .blue,
+                    textColor: .white) { }*/
+        LoginButton(text: "Already have an account?",
+                    secondText: "Sign",
+                    image: nil,
+                    textColor: .blue) {}
     }
 }

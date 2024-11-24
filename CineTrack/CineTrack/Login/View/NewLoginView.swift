@@ -16,7 +16,12 @@ struct NewLoginView: View {
     var body: some View {
         VStack {
             VStack {
-                // Logo
+                Image("appIcon")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 100, height: 100)
+                    .padding(.vertical, 32)
+                
                 VStack(alignment: .center, spacing: 24) {
                     InputView(text: $email,
                               title: "Email Address",
@@ -28,7 +33,8 @@ struct NewLoginView: View {
                               placeholder: "Enter your password",
                               isSecureField: true)
                     
-                    LoginButton(title: "Sign",
+                    LoginButton(text: "Sign",
+    
                                 image: "arrow.right",
                                 backgroundColor: Color(.systemBlue)) {
                         // Sign
