@@ -13,6 +13,8 @@ struct NewLoginView: View {
     @State private var password = ""
     @State private var userIsLoggedIn = ""
     
+    @EnvironmentObject  var viewModel: AuthViewModel
+    
     var body: some View {
         VStack {
             VStack {
@@ -36,7 +38,9 @@ struct NewLoginView: View {
                     LoginButton(text: "Sign",
                                 image: "arrow.right",
                                 backgroundColor: Color(.systemBlue), textColor: .white) {
-                        // Sign
+                        Task {
+                            try await viewModel.signIn(withEmail: email, password: password)
+                        }
                     }
                     
                 }
