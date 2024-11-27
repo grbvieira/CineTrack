@@ -6,9 +6,9 @@ target 'CineTrack' do
   use_frameworks!
 
   # Pods for CineTrack
-	#pod 'Firebase/Auth'
-	#pod 'Firebase/Firestore'
-  #pod 'FirebaseUI'
+	pod 'FirebaseAuth'
+        pod 'FirebaseFirestore'
+	pod 'FirebaseAnalytics'
 
   target 'CineTrackTests' do
     inherit! :search_paths

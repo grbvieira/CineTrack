@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+
 struct RegistrationView: View {
     @State private var email = ""
     @State private var fullName = ""
     @State private var password = ""
     @State private var confirmPassword = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
         VStack {
@@ -47,7 +49,11 @@ struct RegistrationView: View {
                             image: "arrow.right",
                             backgroundColor: Color(.systemBlue),
                             textColor: .white) {
-                    // Sign
+                    Task {
+                        try await viewModel.createUser(withEmail: email,
+                                             password: password,
+                                             fullName: fullName)
+                    }
                 }
                 
             }

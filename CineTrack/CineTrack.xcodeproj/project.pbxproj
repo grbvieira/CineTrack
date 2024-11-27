@@ -12,6 +12,8 @@
 		61ACE6747346E58990FB56AE /* Pods_CineTrack_CineTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6C051C7C051E45A905056F /* Pods_CineTrack_CineTrackUITests.framework */; };
 		65020E1D2CEE9652009D148F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65020E1C2CEE9652009D148F /* AppDelegate.swift */; };
 		65020E222CEE9950009D148F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65020E212CEE9950009D148F /* LoginView.swift */; };
+		65151BE52CF1471000FBF91B /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65151BE42CF1471000FBF91B /* InputView.swift */; };
+		65151BE72CF14DA100FBF91B /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65151BE62CF14DA100FBF91B /* LoginButton.swift */; };
 		651635C92CE961420003AE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651635C32CE961420003AE27 /* Preview Assets.xcassets */; };
 		651635CA2CE961420003AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651635C52CE961420003AE27 /* Assets.xcassets */; };
 		651635CB2CE961420003AE27 /* CineTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635C62CE961420003AE27 /* CineTrackApp.swift */; };
@@ -20,9 +22,15 @@
 		651635D32CE961B60003AE27 /* CineTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635D02CE961B60003AE27 /* CineTrackUITests.swift */; };
 		651635D42CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651635D12CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift */; };
 		6581162F2CEAAA5100066DE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6581162E2CEAAA5000066DE4 /* GoogleService-Info.plist */; };
+		6587D90C2CF2B7E800EDCE86 /* NewLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D90B2CF2B7E800EDCE86 /* NewLoginView.swift */; };
+		659F7EA42CF142A00007C6D6 /* ClaqueteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F7EA32CF142A00007C6D6 /* ClaqueteView.swift */; };
 		65A3CF052CEEF85700D8A77A /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF042CEEF85700D8A77A /* Extension+View.swift */; };
 		65A3CF0A2CEEFE3F00D8A77A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF092CEEFE3F00D8A77A /* CustomButton.swift */; };
 		65A3CF0C2CEF057F00D8A77A /* LoginAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF0B2CEF057F00D8A77A /* LoginAnimationView.swift */; };
+		65C51E472CF6E3DE00FAB826 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C51E462CF6E3DE00FAB826 /* User.swift */; };
+		65C51E492CF6E58100FAB826 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C51E482CF6E58100FAB826 /* ProfileView.swift */; };
+		65D8C0C12CF2CD670056019F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8C0C02CF2CD670056019F /* RegistrationView.swift */; };
+		65E8F2132CEF147C008CF29D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8F2122CEF147C008CF29D /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +60,8 @@
 		64896450E58F2E1A3913A709 /* Pods-CineTrack-CineTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack-CineTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
 		65020E1C2CEE9652009D148F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65020E212CEE9950009D148F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		65151BE42CF1471000FBF91B /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		65151BE62CF14DA100FBF91B /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		651635C32CE961420003AE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		651635C52CE961420003AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651635C62CE961420003AE27 /* CineTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackApp.swift; sourceTree = "<group>"; };
@@ -60,12 +70,18 @@
 		651635D02CE961B60003AE27 /* CineTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackUITests.swift; sourceTree = "<group>"; };
 		651635D12CE961B60003AE27 /* CineTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6581162E2CEAAA5000066DE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6587D90B2CF2B7E800EDCE86 /* NewLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginView.swift; sourceTree = "<group>"; };
+		659F7EA32CF142A00007C6D6 /* ClaqueteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaqueteView.swift; sourceTree = "<group>"; };
 		65A3CF042CEEF85700D8A77A /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 		65A3CF092CEEFE3F00D8A77A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		65A3CF0B2CEF057F00D8A77A /* LoginAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationView.swift; sourceTree = "<group>"; };
+		65C51E462CF6E3DE00FAB826 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65C51E482CF6E58100FAB826 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		65C9F05F2CE95EE900805858 /* CineTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D8C0C02CF2CD670056019F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		65E8F2122CEF147C008CF29D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		6E9F6AA34500EC5219644664 /* Pods_CineTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CineTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B399525F2CCE35589B6A2E04 /* Pods-CineTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CineTrack.release.xcconfig"; path = "Target Support Files/Pods-CineTrack/Pods-CineTrack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +114,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65020E182CEE95D3009D148F /* Login */ = {
+		65020E182CEE95D3009D148F /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
 				65020E202CEE9936009D148F /* Model */,
@@ -106,7 +122,7 @@
 				65020E1F2CEE9922009D148F /* ViewModel */,
 				65020E192CEE95DE009D148F /* Firebase */,
 			);
-			path = Login;
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		65020E192CEE95DE009D148F /* Firebase */ = {
@@ -122,6 +138,10 @@
 			children = (
 				65020E212CEE9950009D148F /* LoginView.swift */,
 				65A3CF0B2CEF057F00D8A77A /* LoginAnimationView.swift */,
+				659F7EA32CF142A00007C6D6 /* ClaqueteView.swift */,
+				6587D90B2CF2B7E800EDCE86 /* NewLoginView.swift */,
+				65D8C0C02CF2CD670056019F /* RegistrationView.swift */,
+				65C51E482CF6E58100FAB826 /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +149,7 @@
 		65020E1F2CEE9922009D148F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				65E8F2122CEF147C008CF29D /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -136,6 +157,7 @@
 		65020E202CEE9936009D148F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65C51E462CF6E3DE00FAB826 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,9 +173,9 @@
 		651635C82CE961420003AE27 /* CineTrack */ = {
 			isa = PBXGroup;
 			children = (
-				65A3CF082CEEFE2C00D8A77A /* UI */,
+				658706422CF41EBE00548112 /* Core */,
+				65A3CF082CEEFE2C00D8A77A /* Components */,
 				65A3CF012CEEF82100D8A77A /* Extension */,
-				65020E182CEE95D3009D148F /* Login */,
 				651635C42CE961420003AE27 /* Preview Content */,
 				651635C52CE961420003AE27 /* Assets.xcassets */,
 				651635C62CE961420003AE27 /* CineTrackApp.swift */,
@@ -180,6 +202,14 @@
 			path = CineTrackUITests;
 			sourceTree = "<group>";
 		};
+		658706422CF41EBE00548112 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				65020E182CEE95D3009D148F /* Authentication */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		65A3CF012CEEF82100D8A77A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,20 +218,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		65A3CF062CEEFD6400D8A77A /* Button */ = {
+		65A3CF082CEEFE2C00D8A77A /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				65A3CF092CEEFE3F00D8A77A /* CustomButton.swift */,
+				65151BE42CF1471000FBF91B /* InputView.swift */,
+				65151BE62CF14DA100FBF91B /* LoginButton.swift */,
 			);
-			path = Button;
-			sourceTree = "<group>";
-		};
-		65A3CF082CEEFE2C00D8A77A /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				65A3CF062CEEFD6400D8A77A /* Button */,
-			);
-			path = UI;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		65C9F0562CE95EE900805858 = {
@@ -260,6 +284,7 @@
 				65C9F05B2CE95EE900805858 /* Sources */,
 				65C9F05C2CE95EE900805858 /* Frameworks */,
 				65C9F05D2CE95EE900805858 /* Resources */,
+				0CD63A480C114397C3FFA3FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +322,7 @@
 				65C9F0752CE95EED00805858 /* Sources */,
 				65C9F0762CE95EED00805858 /* Frameworks */,
 				65C9F0772CE95EED00805858 /* Resources */,
+				6E9BB9602B2E2595BC638A4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,6 +406,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CD63A480C114397C3FFA3FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CineTrack/Pods-CineTrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CineTrack/Pods-CineTrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CineTrack/Pods-CineTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9BB9602B2E2595BC638A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CineTrack-CineTrackUITests/Pods-CineTrack-CineTrackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7822B59852F8E5E6B41C6254 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,13 +513,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65151BE72CF14DA100FBF91B /* LoginButton.swift in Sources */,
 				65020E1D2CEE9652009D148F /* AppDelegate.swift in Sources */,
+				659F7EA42CF142A00007C6D6 /* ClaqueteView.swift in Sources */,
+				65D8C0C12CF2CD670056019F /* RegistrationView.swift in Sources */,
 				651635CB2CE961420003AE27 /* CineTrackApp.swift in Sources */,
 				65A3CF0A2CEEFE3F00D8A77A /* CustomButton.swift in Sources */,
+				65C51E472CF6E3DE00FAB826 /* User.swift in Sources */,
+				65C51E492CF6E58100FAB826 /* ProfileView.swift in Sources */,
 				65A3CF0C2CEF057F00D8A77A /* LoginAnimationView.swift in Sources */,
+				65E8F2132CEF147C008CF29D /* AuthViewModel.swift in Sources */,
 				65A3CF052CEEF85700D8A77A /* Extension+View.swift in Sources */,
+				65151BE52CF1471000FBF91B /* InputView.swift in Sources */,
 				65020E222CEE9950009D148F /* LoginView.swift in Sources */,
 				651635CC2CE961420003AE27 /* StartView.swift in Sources */,
+				6587D90C2CF2B7E800EDCE86 /* NewLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

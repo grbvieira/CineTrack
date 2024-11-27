@@ -9,17 +9,29 @@ import SwiftUI
 
 struct StartView: View {
     
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink(destination: LoginAnimationView()) {
-                    Text("Animar Login")
+        Group {
+            if viewModel.userSession != nil {
+                NavigationView {
+                    List {
+                        NavigationLink(destination: LoginAnimationView()) {
+                            Text("Animar Login")
+                        }
+                        NavigationLink(destination: LoginView()) {
+                            Text("Login Simples")
+                        }
+                        NavigationLink(destination: NewLoginView()) {
+                            Text("Novo Login")
+                        }
+                    }
+                    .navigationBarTitle("Escolha a Opção")
                 }
-                NavigationLink(destination: LoginView()) {
-                    Text("Login Simples")
-                }
+
+            } else {
+                NewLoginView()
+                    .environmentObject(viewModel)
             }
-            .navigationBarTitle("Escolha a Opção")
         }
     }
 }
