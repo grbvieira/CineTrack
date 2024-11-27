@@ -22,7 +22,7 @@ struct NewLoginView: View {
                     .frame(width: 100, height: 100)
                     .padding(.vertical, 32)
                 
-                VStack(alignment: .center, spacing: 24) {
+                VStack(spacing: 24) {
                     InputView(text: $email,
                               title: "Email Address",
                               placeholder: "name@example.com")
@@ -34,18 +34,20 @@ struct NewLoginView: View {
                               isSecureField: true)
                     
                     LoginButton(text: "Sign",
-    
                                 image: "arrow.right",
-                                backgroundColor: Color(.systemBlue)) {
+                                backgroundColor: Color(.systemBlue), textColor: .white) {
                         // Sign
                     }
                     
                 }
                 .padding(.horizontal, 12)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                
+                Spacer()
+                
                 
                 NavigationLink {
-                    // To Page of registration
+                    RegistrationView()
+                        .navigationBarBackButtonHidden(true)
                 } label: {
                     HStack(spacing: 3) {
                         Text("Don't have an account?")

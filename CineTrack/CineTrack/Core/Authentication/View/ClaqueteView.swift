@@ -5,7 +5,8 @@
 //  Created by Gerson Vieira on 22/11/24.
 //
 
-import Foundation
+import SwiftUI
+
 struct ClaqueteView: View {
     @State private var isClosed = false
     
@@ -13,6 +14,8 @@ struct ClaqueteView: View {
         Image(systemName: "film")
             .resizable()
             .frame(width: 100, height: 100)
+            .foregroundColor(.white)
+            .shadow(radius: 5)
             .rotationEffect(.degrees(isClosed ? 45 : 0))
             .scaleEffect(isClosed ? 0.9 : 1)
             .animation(.easeInOut(duration: 1))
@@ -21,5 +24,7 @@ struct ClaqueteView: View {
                     isClosed.toggle()
                 }
             }
+            .background(Color.black)
+            .cornerRadius(10)
     }
 }
