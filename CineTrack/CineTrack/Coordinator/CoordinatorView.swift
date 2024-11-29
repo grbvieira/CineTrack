@@ -7,13 +7,18 @@
 
 import SwiftUI
 
+protocol userSessionProtocol {
+    var isLogged: Bool { get }
+    
+}
+
 struct CoordinatorView: View {
     @StateObject private var coordinator = Coordinator()
     @StateObject var viewModel: AuthViewModel = AuthViewModel()
     
     var body: some View {
         NavigationStack(path: $coordinator.path) {
-            coordinator.build(page: .main)
+            coordinator.build(page: isLogged ? .profile : .login)
                 .navigationDestination(for: AppPages.self) { page in
                     coordinator.build(page: page)
                 }
@@ -23,5 +28,14 @@ struct CoordinatorView: View {
         }
         .environmentObject(coordinator)
         .environmentObject(viewModel)
+    }
+}
+
+extension CoordinatorView: userSessionProtocol {
+    var isLogged: Bool {
+        if self.viewModel.currentUser != nil {
+            return true
+        }
+        return false
     }
 }

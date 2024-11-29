@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 enum AppPages {
-    case main
+   // case main
     case login
     case profile
 }
