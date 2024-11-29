@@ -9,10 +9,9 @@ import SwiftUI
 
 struct LoginButton: View {
     let text: String
-    var secondText: String = ""
     let image: String?
-    var backgroundColor: Color = .clear
-    var textColor: Color = .black
+    var backgroundColor: Color
+    var textColor: Color
     let action: () -> Void
     
     var body: some View {
@@ -20,17 +19,13 @@ struct LoginButton: View {
             Button(action: action) {
                 HStack {
                     Text(text)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(textColor)
-                    Text(secondText)
-                        .fontWeight(.bold)
+                        .fontWeight(.medium)
                         .foregroundStyle(textColor)
                     if let image = image  {
                         Image(systemName: image)
                             .foregroundStyle(textColor)
                     }
                 }
-                .foregroundColor(.white)
                 .frame(width: UIScreen.main.bounds.width - 32, height: 48)
             }
             .background(backgroundColor)
@@ -42,13 +37,9 @@ struct LoginButton: View {
 
 struct LoginButton_Preview: PreviewProvider {
     static var previews: some View {
-       /* LoginButton(title: "Sign",
+        LoginButton(text: "SignIn",
                     image: "arrow.right",
-                    backgroundColor: .blue,
-                    textColor: .white) { }*/
-        LoginButton(text: "Already have an account?",
-                    secondText: "Sign",
-                    image: nil,
-                    textColor: .blue) {}
+                    backgroundColor: Color(.systemBlue),
+                    textColor: .white){}
     }
 }
