@@ -26,6 +26,7 @@ class AuthViewModel: ObservableObject, @preconcurrency AuthViewModelContract{
     @Published var currentUser: User?
     @Published var isAlertPresent = false
     @Published var alertMessage = String()
+    @Published var isLoading: Bool = false
     
     init() {
         self.userSession = Auth.auth().currentUser
@@ -36,23 +37,30 @@ class AuthViewModel: ObservableObject, @preconcurrency AuthViewModelContract{
     }
     
     func signIn(withEmail email: String, password: String) async throws {
+        self.isLoading = true
         do {
             let result = try await Auth.auth().signIn(withEmail: email, password: password)
             self.userSession = result.user
+            self.isLoading = false
             await fetchUser()
         } catch {
+            self.isLoading = false
             self.errorSignInError(error: error)
         }
     }
     
     func createUser(withEmail email: String, password: String, fullName: String) async throws {
+        self.isLoading = true
         do {
             let result = try await Auth.auth().createUser(withEmail: email, password: password)
             self.userSession =  result.user
             let user = User(id: result.user.uid, fullName: fullName, email: email)
             let encoderUser = try Firestore.Encoder().encode(user)
             try await Firestore.firestore().collection("users").document(user.id).setData(encoderUser)
+            self.isLoading = false
+            await self.fetchUser()
         } catch {
+            self.isLoading = false
             self.errorSignInError(error: error)
         }
     }
