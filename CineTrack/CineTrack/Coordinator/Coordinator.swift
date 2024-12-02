@@ -45,8 +45,9 @@ class Coordinator: ObservableObject {
     func build(page: AppPages) -> some View {
         switch page {
         //case .main: LoginView()
-        case .login: NewLoginView()
+        case .signIn: LoginView()
         case .profile: ProfileView()
+        case .signUp: RegistrationView().navigationBarBackButtonHidden()
         }
     }
     

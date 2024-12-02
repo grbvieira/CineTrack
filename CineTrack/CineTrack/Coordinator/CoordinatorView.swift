@@ -18,7 +18,7 @@ struct CoordinatorView: View {
     
     var body: some View {
         NavigationStack(path: $coordinator.path) {
-            coordinator.build(page: isLogged ? .profile : .login)
+            coordinator.build(page: isLogged ? .profile : .signIn)
                 .navigationDestination(for: AppPages.self) { page in
                     coordinator.build(page: page)
                 }

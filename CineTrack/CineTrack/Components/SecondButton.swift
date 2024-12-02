@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomButton: View {
+struct SecondButton: View {
     let firstLabel: String
     let secondLabel: String
     let secondLabelIsBold: Bool
@@ -30,9 +30,9 @@ struct CustomButton: View {
     }
 }
 
-struct CustomButton_Preview: PreviewProvider {
+struct SecondButton_Preview: PreviewProvider {
     static var previews: some View {
-        CustomButton(firstLabel: "Don't have an account?",
+        SecondButton(firstLabel: "Don't have an account?",
                      secondLabel: "Sign up",
                      secondLabelIsBold: true,
                      textColor: .blue) {}

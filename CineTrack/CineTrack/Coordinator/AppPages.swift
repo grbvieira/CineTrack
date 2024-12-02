@@ -10,8 +10,9 @@ import UIKit
 
 enum AppPages {
    // case main
-    case login
+    case signIn
     case profile
+    case signUp
 }
 
 /*enum Sheet: String, Identifiable {
