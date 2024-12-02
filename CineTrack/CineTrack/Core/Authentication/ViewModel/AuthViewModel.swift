@@ -68,7 +68,15 @@ class AuthViewModel: ObservableObject, @preconcurrency AuthViewModelContract{
     }
     
     func deleAccount() {
-        print("DeleAccount")
+        guard let currentUser = Auth.auth().currentUser else { return }
+        
+        currentUser.delete { error  in
+            if let error = error {
+                self.errorSignInError(error: error)
+            } else {
+                self.signOut()
+            }
+        }
     }
     
     func fetchUser() async {
