@@ -11,9 +11,7 @@ import FirebaseCore
 @main
 struct CoordinatorApp: App {
     
-    init() {
-        FirebaseApp.configure()
-    }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     
     var body: some Scene {
         WindowGroup{

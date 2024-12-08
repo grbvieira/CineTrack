@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum AuthProviders: String {
+    case email = "password"
+    case google = "google.com"
+}
