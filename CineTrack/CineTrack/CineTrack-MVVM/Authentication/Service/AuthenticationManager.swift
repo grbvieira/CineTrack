@@ -47,6 +47,7 @@ final class AuthenticationManager: AuthenticationManagerContract {
     
     func getAuthenticatedUser() throws -> AuthViewData {
         guard let user = Auth.auth().currentUser else {
+            print("DEBUG getAuthenticatedUser")
             throw URLError(.badServerResponse)
         }
         
