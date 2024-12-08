@@ -25,7 +25,7 @@ protocol SignInEmailContract {
 
 protocol SignInSSOContract {
     func signInWhitGoogle(tokens: GoogleSignInResultModel) async throws -> AuthViewData
-    func signInWhitFacebook() async throws -> AuthViewData
+  //  func signInWhitFacebook() async throws -> AuthViewData
     func signIn(credential: AuthCredential) async throws -> AuthViewData
 }
 

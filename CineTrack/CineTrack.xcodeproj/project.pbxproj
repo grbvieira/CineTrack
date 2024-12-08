@@ -44,6 +44,7 @@
 		65A3CF0A2CEEFE3F00D8A77A /* SecondButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3CF092CEEFE3F00D8A77A /* SecondButton.swift */; };
 		65C51E472CF6E3DE00FAB826 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C51E462CF6E3DE00FAB826 /* User.swift */; };
 		65C51E492CF6E58100FAB826 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C51E482CF6E58100FAB826 /* ProfileView.swift */; };
+		65D048882D0643EC0048A54C /* UserSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D048872D0643EC0048A54C /* UserSessionManager.swift */; };
 		65D7DDF32D02C47C00F627FE /* UserViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7DDF22D02C47C00F627FE /* UserViewData.swift */; };
 		65D7DDF62D02CF6F00F627FE /* GoogleSignInResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7DDF52D02CF6F00F627FE /* GoogleSignInResultModel.swift */; };
 		65D7DDF82D02CFDB00F627FE /* SignInGoogleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7DDF72D02CFDB00F627FE /* SignInGoogleHelper.swift */; };
@@ -102,6 +103,7 @@
 		65C9F05F2CE95EE900805858 /* CineTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9F06F2CE95EEC00805858 /* CineTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D048872D0643EC0048A54C /* UserSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionManager.swift; sourceTree = "<group>"; };
 		65D7DDF22D02C47C00F627FE /* UserViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewData.swift; sourceTree = "<group>"; };
 		65D7DDF52D02CF6F00F627FE /* GoogleSignInResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInResultModel.swift; sourceTree = "<group>"; };
 		65D7DDF72D02CFDB00F627FE /* SignInGoogleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInGoogleHelper.swift; sourceTree = "<group>"; };
@@ -224,6 +226,8 @@
 		651635C82CE961420003AE27 /* CineTrack */ = {
 			isa = PBXGroup;
 			children = (
+				65376B3F2CF8493700A3FCDD /* Coordinator */,
+				65D048862D0643D20048A54C /* UserManager */,
 				65576E9A2D04F61F00865585 /* Firestone */,
 				65608CDA2CFD94A200F5D6DC /* Utilities */,
 				658706422CF41EBE00548112 /* Core */,
@@ -288,7 +292,6 @@
 		65608CD22CFD8B4B00F5D6DC /* CineTrack-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				65376B3F2CF8493700A3FCDD /* Coordinator */,
 				65020E182CEE95D3009D148F /* Authentication */,
 			);
 			path = "CineTrack-MVVM";
@@ -364,6 +367,14 @@
 				65C9F0792CE95EED00805858 /* CineTrackUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		65D048862D0643D20048A54C /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				65D048872D0643EC0048A54C /* UserSessionManager.swift */,
+			);
+			path = UserManager;
 			sourceTree = "<group>";
 		};
 		65D7DDF42D02C7C700F627FE /* ViewData */ = {
@@ -522,6 +533,7 @@
 				65F816172CFCAD8A0064EB26 /* extension+AuthViewModel.swift in Sources */,
 				65576EA12D050F1100865585 /* UserManager.swift in Sources */,
 				65D7DDFD2D02D46700F627FE /* AuthenticationProtocol.swift in Sources */,
+				65D048882D0643EC0048A54C /* UserSessionManager.swift in Sources */,
 				65376B452CF84F7400A3FCDD /* CoordinatorApp.swift in Sources */,
 				65376B412CF8495C00A3FCDD /* AppPages.swift in Sources */,
 				65D7DDF62D02CF6F00F627FE /* GoogleSignInResultModel.swift in Sources */,

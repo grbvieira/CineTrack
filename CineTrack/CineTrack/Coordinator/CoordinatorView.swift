@@ -33,9 +33,7 @@ struct CoordinatorView: View {
 
 extension CoordinatorView: userSessionProtocol {
     var isLogged: Bool {
-        if self.viewModel.currentUser != nil {
-            return true
-        }
-        return false
+        let user = try? AuthenticationManager.shared.getAuthenticatedUser()
+        return user != nil
     }
 }

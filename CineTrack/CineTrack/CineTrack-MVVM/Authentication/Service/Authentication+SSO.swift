@@ -5,7 +5,7 @@
 //  Created by Gerson Vieira on 06/12/24.
 //
 
-import Firebase
+import FirebaseAuth
 
 // MARK: - Sign In SSO
 
@@ -17,12 +17,13 @@ extension AuthenticationManager: SignInSSOContract {
     
     func signInWhitGoogle(tokens: GoogleSignInResultModel) async throws -> AuthViewData {
         let credential = GoogleAuthProvider.credential(withIDToken: tokens.idToken, accessToken: tokens.accessToken)
-        return try await signIn(withEmail: <#T##String#>, password: <#T##String#>)
+        return try await signIn(credential: credential)
     }
     
-    func signInWhitFacebook() async throws -> AuthViewData {
+   /* func signInWhitFacebook() async throws -> AuthViewData {
         //Facebook Sign
-    }
+        
+    } */
     
 
 }
